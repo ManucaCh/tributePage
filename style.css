@@ -44,7 +44,7 @@ html {
     margin: 30px 8px;
     padding: 15px;
     border-radius: 5px;
-    background: #eee;
+    background: #cdeae8;
   }
   
   @media (max-width: 460px) {
@@ -57,17 +57,21 @@ html {
     max-width: 100%;
     display: block;
     height: auto;
-    margin: 0 auto;
+    margin: 0px auto;
+    
+    
   }
   
   #img-div {
     background: white;
-    padding: 10px;
+    padding: 2.5em;
     margin: 0;
   }
   
   #img-caption {
     margin: 15px 0 5px 0;
+    text-align: center;
+
   }
   
   @media (max-width: 460px) {
@@ -81,6 +85,19 @@ html {
     text-align: center;
   }
   
+  hr{
+    width: 75%;
+    color: #378582;
+    border-style: solid;
+    
+  }
+
+  .paragraph {
+    text-align: justify;
+    padding: 2.5%;
+  }
+
+ 
   ul {
     max-width: 550px;
     margin: 0 auto 50px auto;
@@ -98,3 +115,15 @@ html {
     margin: 0 auto 50px auto;
     text-align: left;
   }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cdeae8;
+    border-radius: 5px;
+    height: 35px;
+}
+      
+  
+  
